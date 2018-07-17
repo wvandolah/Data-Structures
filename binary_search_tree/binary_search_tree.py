@@ -35,9 +35,7 @@ class BinarySearchTree:
         return False
 
   def get_max(self):
-    current = self.value
-    right = self.right
-    while right:
-      current = right.value
-      right = right.right
-    return current
+    current = self    
+    while current.right:
+      current = current.right
+    return current.value
