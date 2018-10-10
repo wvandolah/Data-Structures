@@ -4,6 +4,7 @@ class ListNode:
     self.prev = prev
     self.next = next
 
+
   def insert_after(self, value):
     pass
 
